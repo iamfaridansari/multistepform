@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/multistepform/static/css/main.cadd882c.css",
-    "main.js": "/multistepform/static/js/main.97e5f626.js",
+    "main.js": "/multistepform/static/js/main.41d60c7d.js",
     "index.html": "/multistepform/index.html",
     "main.cadd882c.css.map": "/multistepform/static/css/main.cadd882c.css.map",
-    "main.97e5f626.js.map": "/multistepform/static/js/main.97e5f626.js.map"
+    "main.41d60c7d.js.map": "/multistepform/static/js/main.41d60c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.cadd882c.css",
-    "static/js/main.97e5f626.js"
+    "static/js/main.41d60c7d.js"
   ]
 }
