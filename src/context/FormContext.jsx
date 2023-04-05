@@ -68,38 +68,38 @@ const FormContextProvider = ({ children }) => {
       designation,
     } = user;
     //
-    // const response = await fetch("/adduser", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     firstname,
-    //     lastname,
-    //     dob,
-    //     gender,
-    //     phone,
-    //     email,
-    //     house,
-    //     street,
-    //     state,
-    //     city,
-    //     pin,
-    //     company,
-    //     designation,
-    //   }),
-    // });
-    // const data = await response.json();
-    // console.log(data);
-    //
-    // if (response.status === 200) {
-    //   setProgress(progress + 1);
+    const response = await fetch("/api/post/multistepform/form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        firstname,
+        lastname,
+        dob,
+        gender,
+        phone,
+        email,
+        house,
+        street,
+        state,
+        city,
+        pin,
+        company,
+        designation,
+      }),
+    });
+    const data = await response.json();
+    console.log(data);
 
-    //   setMessage({
-    //     message1: data.message1,
-    //     message2: data.message2,
-    //   });
-    // }
+    if (response.status === 200) {
+      setProgress(progress + 1);
+
+      setMessage({
+        message1: data.message1,
+        message2: data.message2,
+      });
+    }
   };
   //
   const returnHome = () => {
