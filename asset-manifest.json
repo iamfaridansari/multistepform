@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/multistepform/static/css/main.cadd882c.css",
-    "main.js": "/multistepform/static/js/main.41d60c7d.js",
+    "main.css": "/multistepform/static/css/main.2bd6530e.css",
+    "main.js": "/multistepform/static/js/main.7534666f.js",
     "index.html": "/multistepform/index.html",
-    "main.cadd882c.css.map": "/multistepform/static/css/main.cadd882c.css.map",
-    "main.41d60c7d.js.map": "/multistepform/static/js/main.41d60c7d.js.map"
+    "main.2bd6530e.css.map": "/multistepform/static/css/main.2bd6530e.css.map",
+    "main.7534666f.js.map": "/multistepform/static/js/main.7534666f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cadd882c.css",
-    "static/js/main.41d60c7d.js"
+    "static/css/main.2bd6530e.css",
+    "static/js/main.7534666f.js"
   ]
 }
