@@ -2,6 +2,7 @@ import React, { createContext, useState } from "react";
 const FormContext = createContext();
 
 const FormContextProvider = ({ children }) => {
+  const backendAPI = "https://server-application.onrender.com";
   const [progress, setProgress] = useState(0);
   //
   const [user, setUser] = useState({
@@ -68,7 +69,7 @@ const FormContextProvider = ({ children }) => {
       designation,
     } = user;
     //
-    const response = await fetch("/api/post/multistepform/form", {
+    const response = await fetch(backendAPI + "/api/post/multistepform/form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
